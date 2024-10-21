@@ -1,0 +1,108 @@
+body{
+  background-color: rgb(15, 15, 15);
+  color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  width: 80%;
+  max-width: 700px;
+  margin:0 auto;
+  background-color:rgb(24, 24, 24) ;
+  padding: 20px;
+  border-radius: 10px;
+}
+h1{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#countdown{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#countdown div{
+  padding: 40px;
+  background-color: rgb(43, 42, 42);
+  border-radius: 5px;
+  gap: 10px;
+  font-size: x-large;
+  box-shadow: 3px 3px rgb(155, 154, 154);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+span{
+  font-size: x-large;
+}
+
+.progess-container{
+  background-color: rgb(155, 154, 154);
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  margin-bottom: 1.4rem;
+}
+
+#progress-bar{
+background-color: chartreuse;
+border-radius: 5px;
+overflow: hidden;
+width:  0%;
+height: 100%;
+transition: width 1s ease-in-out;
+}
+
+.input-section {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#endDateTime {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+  background-color: rgb(43, 42, 42);
+  color: azure;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+button#setTimer {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: chartreuse;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  font-size: 1rem;
+}
+
+button#setTimer:hover{
+  background-color: rgb(155, 154, 154);
+}
+.down{
+  position: absolute;
+  bottom: 0;
+  padding:  1 rem;
+  margin-bottom: 2 rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgb(155, 154, 154);
+}
